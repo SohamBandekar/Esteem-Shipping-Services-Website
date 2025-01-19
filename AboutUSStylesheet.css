@@ -1,0 +1,233 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    margin: 0px;
+}
+header{
+    background-color: #14213d;
+    color: #ffffff;
+    text-align: center;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header li{
+    font-size: 20px;
+}
+header nav{
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #111a2f;
+}
+header h1{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 0px;
+}
+
+
+.aboutus{
+    text-align: left;
+    margin: 20px;
+
+    border-color: aquamarine;
+}
+.aboutus h2{
+    margin-left: 100px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    color: #15223d;
+}
+
+.aboutus img{
+    top:10px;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.whoweare h2{
+    position: absolute;
+    margin-left: 600px;
+    font-size: 60px;
+    color: #15223d;
+}
+.whoweare span{
+    color: #00b4d8;
+}
+.whoweare{
+    text-align: left;
+    margin: 20px;
+}
+.whoweare p{
+    padding: 15px;
+}
+.whoweare img{
+    top:10px;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.expertise{
+    background-color: #caf0f8;
+    padding: 30px;
+}
+.expertise h2{
+    text-align: center;
+}
+
+.expertise ul{
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column ;
+    grid-auto-columns: 25%;
+    overflow: auto;
+    justify-content: space-evenly;
+    gap: 25px;
+    background-color: #00b4d8;
+    margin-left: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.expertise div {
+    padding: 25px;
+    background-color: #caf0f8;
+    outline-color: #0077b6;
+    outline-style: solid;
+    outline-width: 10px;
+    text-align: left;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.missionvision{
+    padding: 40px;
+    background-color: #03045e;
+    margin: 20px;
+    text-align: left;
+    color: #ffffff;
+}
+.missionvision h2{
+    text-align: center;
+}
+.missionvision img{
+    position: relative;
+    border-radius: 10px;
+
+}
+.missionvision main{
+    position: absolute;
+    top: 2650px;
+    width: 40%;
+    left: 52%;
+}
+.missionvision div{
+    position: absolute;
+    top: 3200px;
+    width: 40%;
+    left: 10%;
+}
+
+.industries{
+    padding: 30px;
+    background-color: #a2d2ff;
+    text-align: left;
+    margin: 20px;
+}
+.industries h2{
+    text-align: center;
+    color: #03045e;
+}
+.industries span{
+    color: #00b4d8;
+}
+.industries ul{
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column ;
+    grid-auto-columns: 25%;
+    overflow: auto;
+}
+
+.industries div{
+    padding: 25px;
+    background-color: #caf0f8;
+    margin: 25px;
+    outline-color: #0077b6;
+    outline-style: solid;
+    outline-width: 10px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.whychooseus{
+    padding: 30px;
+    background-color: #90e0ef;
+    text-align: left;
+    margin: 20px;
+    outline-color: #03045e;
+    outline-style: solid;
+    outline-width: 10px;
+}
+.whychooseus li{
+    text-align: center;
+}
+.whychooseus h2{
+    text-align: center;
+    color: #0077b6;
+}
+.whychooseus ul{
+    list-style-type: none;
+    display: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.whychooseus div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    text-align: left;
+    margin: 5px;
+}
+.whychooseus main{
+    background-color: #00b4d8;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 25px;
+    color: #ffffff;
+}
+.whychooseus img{
+    border-radius: 10px;
+}
+.whychooseus li span{
+    color: #14213d;
+}
+.whychooseus span{
+    color: #03045e;
+}
+.contactus{
+    padding: 30px;
+    background-color: #14213d;
+    text-align: left;
+    margin: 0px;
+    color: #ffffff;
+}
+.contactus h2{
+    text-align: center;
+}
+.contactus p{
+    padding: 15px;
+}
+.contactus div{
+    padding: 15px;
+    margin: 5px;
+}
